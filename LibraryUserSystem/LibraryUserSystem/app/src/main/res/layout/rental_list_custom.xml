@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/book_name"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="책이름"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/book_barcod"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:text="바코드"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/background_light"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/book_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/background_light"
+                android:text="작가" />
+
+            <TextView
+                android:id="@+id/book_publisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/background_light"
+                android:text="출판사" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "496504851755",
+    "firebase_url": "https://librarytotalsystem.firebaseio.com",
+    "project_id": "librarytotalsystem",
+    "storage_bucket": "librarytotalsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496504851755:android:5a40c80f0c7a2bcb",
+        "android_client_info": {
+          "package_name": "livraryuser.usserna.libraryusersystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496504851755-c1fqqie9d0eglr2fc6sbdn08joia2mck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3rt7VVxPavIjB8rxndrbe0NMfEVsHV6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
